@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+        h5{
+           text-align: center;
+           font-size: 45px;
+            margin: auto;
+        }
+        p{
+            text-align: center;
+            font-size: 30px;
+            font-weight: 600;
+            color:magenta;
+        }
+        table{
+
+            margin: auto;
+            border-collapse: collapse;
+        }
+        table,th{
+            border: ;
+        }
+        table th{
+            background:;
+            margin: 20px;
+            width: 100px;
+            height:100px;
+            font-size: 20px;
+            cursor: pointer;
+
+        }
+        span{
+            display: block;
+            text-align: center;
+            margin: 10px;
+        }
+    </style>
+    
+</head>
+<body>
+    <h5>Tic Tac Toe</h5>
+    <p id="player">Let's start</p>
+    <table border="1">
+       
+        <tr>
+            <th id="b1" onclick="turn(1)"></th>
+            <th id="b2" onclick="turn(2)"></th>
+            <th id="b3" onclick="turn(3)"></th>
+        </tr>
+        <tr>
+            <th id="b4" onclick="turn(4)"></th>
+            <th id="b5" onclick="turn(5)"></th>
+            <th id="b6" onclick="turn(6)"></th>
+        </tr>
+        <tr>
+            <th id="b7" onclick="turn(7)"></th>
+            <th id="b8" onclick="turn(8)"></th>
+            <th id="b9" onclick="turn(9)"></th>
+        </tr>
+    </table>
+
+    <span>Developed by <a href="https://www.akashchowdhury.epizy.com"> Akash Chowdhury</a></span>
+    
+    <script src="js.js"></script>
+</body>
+</html>
