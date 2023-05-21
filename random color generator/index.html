@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main" id="main">
+        <div class="box">
+            <h5 id="text_color">#FF0000</h5>
+            <button id="btn">Generate</button>
+        </div>
+    </div>
+</body>
+<script>
+
+    getcolor=()=>{
+        const random=Math.floor(Math.random()*16457725);
+        color="#"+ random.toString(16);
+        document.getElementById("main").style.backgroundColor=color;
+        document.getElementById("text_color").style.color=color;
+        document.getElementById("text_color").innerText=color;
+        navigator.clipboard.writeText(color);
+        console.log(color);
+
+    }
+document.getElementById("btn").addEventListener("click",getcolor);
+
+</script>
+</html>

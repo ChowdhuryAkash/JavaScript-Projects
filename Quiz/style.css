@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding: 0;
+
+}
+html{
+    overflow: hidden;
+    font-family: sans-serif;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(32,33,36);
+    padding-top: 200px;
+}
+.box{
+    width: 400px;
+    height: auto;
+    background: #fff;
+    margin: auto;
+    padding: 10px;
+    border-radius: 4px;
+
+
+}
+.question h5{
+    font-size: 22px;
+}
+.option{
+    display: flex;
+    margin: 20px 0;
+}
+.option label{
+    margin: 0 10px;
+    font-size: 20px;
+}
+#submit{
+    width: 300px;
+    height: 40px;
+    background: blue;
+    color:#fff;
+    border:none;
+    border-radius: 5px;
+    display: block;
+    margin: 40px auto 20px auto;
+    font-size: 20px;
+}
